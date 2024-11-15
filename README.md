@@ -1,8 +1,24 @@
-Enjoy the Free code + Assets 😍
-- Support us on YouTube Channel: https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Car Management Application
 
-Currently, two official plugins are available:
+A comprehensive full-stack application for managing car records, allowing users to perform CRUD operations, upload car images, and implement secure user authentication. Built with Node.js, Express, MongoDB, and deployed on a cloud platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **CRUD Operations**: Create, read, update, and delete car records with ease.
+- **Image Upload**: Supports multiple car image uploads with file size validation.
+- **Authentication**: Secure user authentication for access control.
+- **Search Functionality**: Find car records quickly using search filters.
+
+## Technologies Used
+
+- **Backend**: Node.js, Express.js, MongoDB, Mongoose
+- **File Uploads**: Multer for handling image uploads
+- **Authentication**: JWT-based secure authentication
+- **Deployment**: Hosted on Heroku/Vercel for accessibility
+
+## Setup Instructions
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/Car-Management-App.git
+   cd Car-Management-App
