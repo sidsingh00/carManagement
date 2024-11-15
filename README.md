@@ -22,3 +22,27 @@ A comprehensive full-stack application for managing car records, allowing users 
    ```bash
    git clone https://github.com/yourusername/Car-Management-App.git
    cd Car-Management-App
+
+2. **Install Dependencies:
+   ```bash
+      npm install
+3. **Run the Server:
+   ```bash
+      npm start
+4. **Access the Application:
+   ```bash
+   http://localhost:5000
+
+## API Endpoints
+
+- **POST /api/auth/signup**: Register a new user
+- **POST /api/auth/login**: Login user and retrieve JWT
+- **POST /api/cars**: Create a new car entry (requires authentication)
+- **GET /api/cars**: Get all car entries (requires authentication)
+- **PUT /api/cars/:id**: Update a car entry by ID (requires authentication)
+- **DELETE /api/cars/:id**: Delete a car entry by ID.
+
+## Usage with Postman
+
+- **Set Authorization**: Use Bearer Token in the headers for protected routes.
+- **Image Upload**: Use form-data in the body to upload images (key: images).
